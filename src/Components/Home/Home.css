@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    padding: 2rem;
+    height: 100vh;
+    background: var(--royal-blue);
+  }
+.home-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+  }
+.home-right{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.home-right .profle img{
+    width: 300px;
+  }
+  
+.home h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+.home p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+@media (max-width: 768px) {
+    .home h1 {
+      font-size: 2rem;
+    }
+  
+    .home p {
+      font-size: 1rem;
+    }
+  }
+  
+  

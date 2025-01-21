@@ -1,0 +1,19 @@
+
+body {
+    margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+  }
+  :root {
+    --midnight-blue: #1E2761;
+    --royal-blue: #408EC6;
+    --burgundy: #7A2048;
+    --darkgrey:#333333;
+    /* Darker gray font (#333333) */
+  }
+  
