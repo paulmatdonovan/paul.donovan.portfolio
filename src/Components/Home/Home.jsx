@@ -10,8 +10,10 @@ const Home = () => {
       <h2>Web Developer</h2>
       <p>Founder of Elevate Web Solutions.
 Your trusted partner for small business websites in Regional Victoria. 
-I'm a part time teacher and aspiring Web Developer. Helping you to get your message out there. 
-Feel free to reach out if you want to get your business on the web</p>
+I'm a part time teacher and aspiring Web Developer. 
+</p>
+
+<p>Let me help you to get your message out there. </p>
 
       </div>
      <div className="home-right">

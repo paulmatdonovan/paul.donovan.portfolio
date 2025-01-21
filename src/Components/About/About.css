@@ -1,0 +1,80 @@
+.about {
+  padding: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-color:var(--burgundy);
+  padding: 15px 25px;
+  color: white;
+  font-family: 'Playfair Display';
+}
+
+.about h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+.about p {
+  font-size: 1.4rem;
+  color: white;
+  line-height: 1.6;
+}
+.project-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.about-top{
+display: flex;
+margin: 0 auto;
+align-items: center;
+text-align: center;
+padding: 25px 7rem;
+flex-direction: column;
+justify-content: center;
+gap: 10px;
+}
+
+.about-bottom{
+    display: flex;
+    gap: 25px;
+    padding: 10px 3rem;
+    margin: 10px 3rem;
+}
+.about-links{
+font-size: 1.7rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: var(--royal-blue);
+list-style: none;
+font-weight: 500;
+padding: 10px 3rem;
+    margin: 10px 3rem;
+}
+.about-links a{
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    color: var(--royal-blue);
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+        }
+
+@media (max-width: 768px) {
+  .about h1 {
+    font-size: 1.8rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+  .about{
+    display: block;
+  }
+}
+
