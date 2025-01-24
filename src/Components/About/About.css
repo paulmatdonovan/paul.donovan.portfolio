@@ -42,7 +42,6 @@ gap: 10px;
     display: flex;
     gap: 25px;
     padding: 10px 3rem;
-    margin: 10px 3rem;
 }
 .about-links{
 font-size: 1.7rem;
@@ -53,7 +52,7 @@ color: var(--royal-blue);
 list-style: none;
 font-weight: 500;
 padding: 10px 3rem;
-    margin: 10px 3rem;
+margin: 10px 2rem;
 }
 .about-links a{
     display: flex;
@@ -75,6 +74,17 @@ padding: 10px 3rem;
   }
   .about{
     display: block;
+    padding: 0px 0px;
+    margin: 10px 5px;
+  }
+  .about-bottom{
+    padding: 0px 0px;
+    margin: 0 auto;
+  }
+  .about-links{
+    display: block;
+    font-size: 1rem;
+    background: var(--midnight-blue);
   }
 }
 

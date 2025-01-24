@@ -1,0 +1,31 @@
+
+.services {
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.services h1 {
+  font-size: 2rem;
+  color: #111;
+}
+
+.services ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.services li {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .services h1 {
+    font-size: 1.8rem;
+  }
+
+  .services li {
+    font-size: 1rem;
+  }
+}
