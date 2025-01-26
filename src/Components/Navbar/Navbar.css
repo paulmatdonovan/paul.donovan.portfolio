@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 5px 2rem;
     background-color: var(--midnight-blue);
     color: white;
     font-family: "Playfair Display"; 
