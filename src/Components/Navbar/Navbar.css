@@ -37,15 +37,28 @@
   }
   
   @media (max-width: 768px) {
-    .navbar {
+   
+    
+.navbar {
       flex-direction: column;
       align-items: center;
       text-align: center;
       justify-content: center;
+
     }
-  
+    .navbar-logo {
+      flex-direction: column; 
+      align-items: center;
+      }
+      .navbar-logo img{
+        max-width: 55%;
+        height: auto;
+        margin: 0 auto;
+      }
     .navbar-links {
       flex-direction: column;
+      margin: 0 auto;
+
       gap: 0.5rem;
     }
     .navbar-links a{
@@ -53,4 +66,5 @@
       font-size: 1.2rem;
     }
   }
+    
   

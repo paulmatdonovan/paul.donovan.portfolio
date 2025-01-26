@@ -41,8 +41,17 @@
   }
   
   @media (max-width: 768px) {
+    .contact{
+      display: block;
+    }
     .contact h1 {
       font-size: 1.8rem;
+    }
+    .contact-photo img{
+
+      max-width:85%;
+      height: auto;  
+  
     }
   
     .contact p {

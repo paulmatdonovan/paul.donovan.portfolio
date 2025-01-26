@@ -24,6 +24,11 @@
   .services h1 {
     font-size: 1.8rem;
   }
+  .services{
+    display: flex;
+flex-direction: column;  
+justify-content: center;
+align-items: center;}
 
   .services li {
     font-size: 1rem;
