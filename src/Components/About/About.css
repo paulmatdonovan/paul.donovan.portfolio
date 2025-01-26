@@ -1,6 +1,6 @@
 .about {
   padding: 2rem;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -8,7 +8,6 @@
   /* color: white; */
   font-family: 'Playfair Display';
   background-color:var(--burgundy);
-
 }
 
 .about.project-header h1{
@@ -28,6 +27,8 @@
 .project-header{
     display: flex;
     align-items: center;
+    background: var(--burgundy);
+
     justify-content: center;
 }
 
@@ -47,13 +48,14 @@ gap: 10px;
     display: flex;
     gap: 10px;
     padding: 10px 3rem;
-    background: var(--midnight-blue);
+    background: var(--burgundy);
+
   }
 
 .about-links{
 font-size: 1.7rem;
 padding: 20px;
-/* background: var(--midnight-blue); */
+background: var(--burgundy);
 display: flex;
 justify-content: space-around;
 align-items: center;
