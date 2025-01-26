@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     height: 80vh;
+    font-family: "Playfair Display";
   }
   .contact-details{
     display: flex;
@@ -21,8 +22,8 @@
   }
   
   .contact p {
-    font-size: 1.1rem;
-    color: #444;
+    font-size: 1.3rem;
+    color: var(--darkgrey);
     margin-bottom: 0.5rem;
   }
   .contact-photo{

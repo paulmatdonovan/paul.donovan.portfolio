@@ -9,9 +9,11 @@
   }
   
   .navbar-logo {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     display: flex;
+    align-items: center;
+
     gap: 15px;
   }
   .navbar-logo img{
@@ -25,6 +27,7 @@
     list-style: none;
     display: flex;
     gap: 1rem;
+    font-size: 1.4rem;
   }
   
   .navbar-links a {
