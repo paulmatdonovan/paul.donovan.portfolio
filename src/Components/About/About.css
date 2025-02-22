@@ -1,6 +1,6 @@
 .about {
   padding: 2rem;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 4rem;
@@ -28,13 +28,11 @@
     display: flex;
     align-items: center;
     background: var(--burgundy);
-
     justify-content: center;
 }
 
 .about-top{
 display: flex;
-
 margin: 0 auto;
 align-items: center;
 text-align: center;
@@ -54,16 +52,16 @@ gap: 10px;
 
 .about-links{
 font-size: 1.7rem;
-padding: 20px;
+padding: 10px;
 background: var(--burgundy);
 display: flex;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
 /* color: var(--royal-blue); */
 list-style: none;
 font-weight: 500;
 padding: 10px 3rem;
-margin: 10px 1rem;
+/* margin: 10px 1rem; */
 }
 .about-links a{
     display: flex;
@@ -82,26 +80,28 @@ margin: 10px 1rem;
   }
 
   .about p {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .about{
     display: block;
     padding: 0px 0px;
-    margin: 10px 5px;
   }
   .about-bottom{
-    padding: 5px 12px;
-    margin: 0 auto;
+    padding: 1px 2px;
+    /* margin: 0 auto; */
+    background: var(--royal-blue);
+
   }
   .about-bottom h1{
     color: black;
   }
   .about-links{
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 15px;
-    margin: 0 auto;
+align-items: center;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }
 
